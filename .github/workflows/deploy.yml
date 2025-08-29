@@ -24,4 +24,4 @@ jobs:
         run: npm run build
 
       - name: Deploy to Vercel
-        run: npx vercel --prod --token=${{ secrets.TEST_CI_CD }}
+        run: npx vercel --prod --token=${{ secrets.TEST_CI_CD }} --yes
